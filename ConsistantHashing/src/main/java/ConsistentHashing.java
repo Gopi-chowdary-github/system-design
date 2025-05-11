@@ -33,7 +33,7 @@ public class ConsistentHashing {
         for (int i = 0; i < virtualNodeCount; i++) {
             int hash = hash(node + "-VN" + i);
             hashRing.remove(hash);
-            System.out.println("Virtual Node [" + node + "-VN" + i + "] removed from position " + hash);
+         //   System.out.println("Virtual Node [" + node + "-VN" + i + "] removed from position " + hash);
         }
     }
 
